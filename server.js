@@ -1,11 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-const path = require("path");
+
 
 const PORT = process.env.PORT || 3001;
 
-const Workout = require("./models/userWorkout.js")
+const Workout = require("./models/userWorkout")
 const app = express();
 
 app.use(logger("dev"));
@@ -21,9 +21,9 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useCreateIndex: true
 });
 
-require("./routes/html-routes.js")(app);
-require("./routes/author-api-routes.js")(app);
-require("./routes/post-api-routes.js")(app);
+//importing the html and api routes
+require("./routes/html-routes")(app);
+require("./routes/workout-api-routes")(app);
 
 
 app.listen(PORT, () => {
