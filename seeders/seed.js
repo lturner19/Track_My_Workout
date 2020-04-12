@@ -7,9 +7,11 @@ mongoose.connect("mongodb://localhost/workout", {
 });
 
 //startup data that is inserted into workout db
+//this is the type of info that will be coming from the UI
 let workoutSeed = [
-  {
+  {//remember to put in day when creating schema
     day: new Date().setDate(new Date().getDate()-10),
+    //the exercises is in an array!
     exercises: [
       {
         type: "resistance",
@@ -127,8 +129,8 @@ let workoutSeed = [
     day: new Date().setDate(new Date().getDate()-1),
     exercises: [
       {
-        type: "resistance",
-        name: "Bench",
+        type: "cardio",
+        name: "Walking",
         duration: 30,
         distance: 2
       }
