@@ -13,11 +13,11 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true
-});
+//code = if deployed use deployed DB or use the local db
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+
+//connecting to MongoDB
+mongoose.connect(MONGODB_URI);
 
 //importing the html and api routes
 require("./routes/html-routes")(app);
