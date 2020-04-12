@@ -5,7 +5,7 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 
-const Workout = require("./Develop/models/userWorkout.js")
+const Workout = require("./models/userWorkout.js")
 const app = express();
 
 app.use(logger("dev"));
@@ -21,7 +21,9 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useCreateIndex: true
 });
 
-//import routes here
+require("./routes/html-routes.js")(app);
+require("./routes/author-api-routes.js")(app);
+require("./routes/post-api-routes.js")(app);
 
 
 app.listen(PORT, () => {

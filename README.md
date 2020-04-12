@@ -56,7 +56,7 @@ As a person who enjoys working out I want a way to keep track of and display my 
 
 
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)] (need heroku link)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://whispering-ocean-69386.herokuapp.com/)
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/lturner19/Track_My_Workout)
 
