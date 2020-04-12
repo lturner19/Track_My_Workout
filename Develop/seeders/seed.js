@@ -6,7 +6,7 @@ mongoose.connect("mongodb://localhost/workout", {
   useFindAndModify: false
 });
 
-//startup data that is coming from the UI
+//startup data that is inserted into workout db
 let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-10),
