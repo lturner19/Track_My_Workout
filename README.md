@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-As a person who enjoys working out I want a way to keep track of and display my exercises to help me improve my overall fitness.
+As a person who enjoys working out I want a way to keep track of and display my exercises to help improve my overall fitness.
 
 
 <br>
