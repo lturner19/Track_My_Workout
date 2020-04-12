@@ -2,6 +2,7 @@
 
 ## INTRODUCTION
 
+As a person who enjoys working out I want a way to keep track of and display my exercises to help me improve my overall fitness.
 
 
 <br>
@@ -26,18 +27,28 @@
 
 ## INSTALLATION
 
+1. The user will need to install the following dependencies by running **npm** i or **npm install**:
+
+    a. Express: node.js framework
+
+    b. Mongoose: Allows express to interact with Mongoose/MongoDB
+
+    c. Morgan: Middleware logger for Node.js
+
+2. The user will need to download MongoDB
 
 
 <br>
 
-## RESOURCES
+### RESOURCES
+
 
 
 <br>
 
 ### PREVIEW
 
-![image]()
+
 
 <br>
 
@@ -45,7 +56,7 @@
 
 
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://lturner19.github.io/Track_My_Workout/)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)] (need heroku link)
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/lturner19/Track_My_Workout)
 
