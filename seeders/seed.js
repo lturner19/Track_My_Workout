@@ -18,10 +18,10 @@ let workoutSeed = [
       {//Thursday (sunday)
         type: "resistance",
         name: "Bicep Curl",
-        duration: 20,
         weight: 100,
+        sets: 4,
         reps: 10,
-        sets: 4
+        duration: 20
       }
     ]
   },
@@ -31,10 +31,10 @@ let workoutSeed = [
       { //Friday (monday)
         type: "resistance",
         name: "Lateral Pull",
-        duration: 20,
         weight: 300,
+        sets: 4,
         reps: 10,
-        sets: 4
+        duration: 20
       }
     ]
   },
@@ -44,10 +44,10 @@ let workoutSeed = [
       {//Saturday  (tuesday)
         type: "resistance",
         name: "Push Press",
-        duration: 25,
         weight: 185,
+        sets: 4,
         reps: 8,
-        sets: 4
+        duration: 25
       }
     ]
   },
@@ -57,8 +57,8 @@ let workoutSeed = [
       {//Sunday (wed)
         type: "cardio",
         name: "Running",
-        duration: 25,
-        distance: 4
+        distance: 4,
+        duration: 25
       }
     ]
   },
@@ -68,10 +68,10 @@ let workoutSeed = [
       {//Monday (thurs)
         type: "resistance",
         name: "Bench Press",
-        duration: 20,
         weight: 285,
+        sets: 4,
         reps: 10,
-        sets: 4
+        duration: 20
       }
     ]
   },
@@ -81,10 +81,10 @@ let workoutSeed = [
       {//Tuesday (friday)
         type: "resistance",
         name: "Bench Press",
-        duration: 20,
         weight: 300,
+        sets: 4,
         reps: 10,
-        sets: 4
+        duration: 20
       }
     ]
   },
@@ -94,10 +94,10 @@ let workoutSeed = [
       {//Wed. (saturday)
         type: "resistance",
         name: "Quad Press",
-        duration: 30,
         weight: 300,
+        sets: 4,
         reps: 10,
-        sets: 4
+        duration: 30
       }
     ]
   },
