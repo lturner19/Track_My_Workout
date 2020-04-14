@@ -13,9 +13,9 @@ mongoose.connect("mongodb://localhost/workout", {
 let workoutSeed = [
   {//remember to put in day when creating schema
     day: new Date().setDate(new Date().getDate()-10),
-    //the exercises is in an array!
+    //the exercises is an array!
     exercises: [
-      {
+      {//Thursday (sunday)
         type: "resistance",
         name: "Bicep Curl",
         duration: 20,
@@ -28,7 +28,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-9),
     exercises: [
-      {
+      { //Friday (monday)
         type: "resistance",
         name: "Lateral Pull",
         duration: 20,
@@ -41,7 +41,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-8),
     exercises: [
-      {
+      {//Saturday  (tuesday)
         type: "resistance",
         name: "Push Press",
         duration: 25,
@@ -54,7 +54,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-7),
     exercises: [
-      {
+      {//Sunday (wed)
         type: "cardio",
         name: "Running",
         duration: 25,
@@ -65,7 +65,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-6),
     exercises: [
-      {
+      {//Monday (thurs)
         type: "resistance",
         name: "Bench Press",
         duration: 20,
@@ -78,7 +78,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-5),
     exercises: [
-      {
+      {//Tuesday (friday)
         type: "resistance",
         name: "Bench Press",
         duration: 20,
@@ -91,7 +91,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-4),
     exercises: [
-      {
+      {//Wed. (saturday)
         type: "resistance",
         name: "Quad Press",
         duration: 30,
@@ -104,7 +104,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-3),
     exercises: [
-      {
+      {//Thurs (sunday)
         type: "resistance",
         name: "Bench Press",
         duration: 20,
@@ -117,7 +117,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-2),
     exercises: [
-      {
+      {//Friday (monday)
         type: "resistance",
         name: "Military Press",
         duration: 20,
@@ -130,7 +130,7 @@ let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-1),
     exercises: [
-      {
+      {//Saturday (tues)
         type: "cardio",
         name: "Walking",
         duration: 30,
