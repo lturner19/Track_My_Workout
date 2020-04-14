@@ -37,7 +37,7 @@ module.exports = function (app) {
 
   //Route 4 (get 7 day workout range)
   app.get("/api/workouts/range", (req, res) => {
-    db.Workout.find({}).sort({ "day": -1 }).limit(7).then(data => {
+    db.Workout.find({}).sort({ "day": 1 }).limit(7).then(data => {
       res.json(data);
     }).catch(err => {
       res.send(err);
