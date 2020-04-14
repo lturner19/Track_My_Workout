@@ -17,7 +17,12 @@ app.use(express.static("public"));
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 
 //connecting to MongoDB
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGODB_URI, {
+    //using to remove deprecation warnings
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+});
 
 //importing the html and api routes
 require("./routes/html-routes")(app);
