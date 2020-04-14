@@ -25,6 +25,11 @@ nav {
   font-size: 1.2rem;
 }
 
+/* allows user to see links as two, not one */
+.stats{
+  padding: 40px;
+}
+
 a,
 a:hover,
 a:active,
