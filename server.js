@@ -18,7 +18,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 
 //connecting to MongoDB
 mongoose.connect(MONGODB_URI, {
-    //using to remove deprecation warnings
+    //Removes deprecation warnings
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
