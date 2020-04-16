@@ -60,11 +60,14 @@ To run on local computers:
 
 2. Users should also have access to MongoDB.
 
+3. To add the schema (seed.js), users can type: **npm run seed**
+
 
 <br>
 
 ### PREVIEW
 
+<img src="public/assets/Fitness_Tracker_preview.gif">
 
 
 <br>
@@ -72,7 +75,7 @@ To run on local computers:
 ### BADGES
 
 
-***Deployed to Heroku***
+*Deployed to Heroku*
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://whispering-ocean-69386.herokuapp.com/)
 
