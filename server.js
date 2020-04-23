@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //code = if deployed use deployed DB or use the local db
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 
 //connecting to MongoDB
 mongoose.connect(MONGODB_URI, {
