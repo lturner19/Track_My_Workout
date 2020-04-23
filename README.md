@@ -67,7 +67,7 @@ To run on local computers:
 
 ### PREVIEW
 
-<img src="public/assets/Fitness_Tracker_preview.gif">
+<img src="public/assets/images/Fitness_Tracker_preview.gif" alt="workout preview">
 
 
 <br>
